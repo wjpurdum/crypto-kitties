@@ -7,12 +7,12 @@
 3. An event is emitted on final calculation to confirm the following:
     (1) That the event has completed
     (2) The final emission count in metric tons
-    (3) THe address of the old owner
+    (3) The address of the previous owner
     (4) The address of the new owner
     (5) The id of the kitty in transit
 4. Error handling - the calculation will not be run if:
-    a. The new owner and previous owner have the same address
-    b. The previous owner did not not initiate the contract (msg.sender)
+#### The new owner and previous owner have the same address
+#### The previous owner did not not initiate the contract (msg.sender)
 
 Given more time, I would implement the following:
 1. Unit tests for helper functions

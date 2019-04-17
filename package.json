@@ -1,0 +1,25 @@
+{
+  "name": "cryptokitties",
+  "version": "1.0.0",
+  "description": "A smart contract to calculate emissions from kitty transfers",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjpurdum/crypto-kitties.git"
+  },
+  "author": "Whitney Purdum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjpurdum/crypto-kitties/issues"
+  },
+  "homepage": "https://github.com/wjpurdum/crypto-kitties#readme",
+  "dependencies": {
+    "web3": "^1.0.0-beta.52"
+  }
+}
